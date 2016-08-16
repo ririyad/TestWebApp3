@@ -18,8 +18,15 @@ namespace TestWebApp3
 
         protected void clickMeButton_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             TextBox1.Text = "Hello, testing again!";
             // Just a test.
+=======
+            TextBox1.Text = "Again try to merge pull request";
+            // I want to change this line
+            // also changed
+            
+>>>>>>> 6ac476d28d0e3d2289079b6af67c88f7f1b0856a
         }
     }
 }

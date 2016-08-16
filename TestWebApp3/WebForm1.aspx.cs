@@ -21,5 +21,10 @@ namespace TestWebApp3
             TextBox1.Text = "Hello, testing again!";
             // Just a test.
         }
+
+        protected void clickMeByRiyadTextBox_Click(object sender, EventArgs e)
+        {
+            TextBox2.Text = "Now I will be shown if you click second button.";
+        }
     }
 }
